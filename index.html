@@ -28,9 +28,11 @@
         <button class="btn" onclick="toggleVideo()">Праздничный танец</button>
     </div>
 
-    <video class="myVideo" style="display: none" controls>
+    <video class="myVideo" preload="none" controls>
         <source src="video_2024-02-14_17-32-33.mp4" type="video/mp4">
     </video>
+
+    <div id="heartsLayer" aria-hidden="true"></div>
 
 <script src="script.js"></script>
 </body>
